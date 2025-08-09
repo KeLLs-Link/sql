@@ -20,3 +20,18 @@ Every table has: **fields, records (or rows), and columns**
 - **Fields:** Fields are columns designed to maintain specific information about every record.
 - **Recors or Rows:** is each individual entry in a table.
 - **Columns:** are vertical entities in a table, containing all information associated with a specific field.
+
+
+## SQL Syntax
+- **SQL Statements**
+
+Most of the actions you need to perform on a database are done with SQL statements.
+
+SQL statements consist of keywords that are easy to understand.
+
+ExampleGet your own SQL Server
+Select all records from the Customers table:
+
+```
+SELECT * FROM Customers;
+```
