@@ -12,3 +12,11 @@ In order to interface with a database, we are going to use something called ***R
 - PostgreSQL
 - Microsoft SQL Server
 
+After setting up your database engine, we are going go need a graphical frontend that will allow us to write queries against our database. (A tool call SQL Server Management Studio) wwill be used. This will allow us connect to the database engiine.
+
+## W3schools.com
+Every table has: **fields, records (or rows), and columns**
+
+- **Fields:** Fields are columns designed to maintain specific information about every record.
+- **Recors or Rows:** is each individual entry in a table.
+- **Columns:** are vertical entities in a table, containing all information associated with a specific field.
