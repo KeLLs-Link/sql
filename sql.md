@@ -68,7 +68,7 @@ DROP INDEX - deletes an index
 
 - ### The SQL SELECT Statement**
 
-The SELECT statement is used to select data from a database.
+The SELECT statement is used to select or grab a specific data from a database.
 
 - Example: 
 
@@ -106,3 +106,27 @@ Return all the columns from the Customers table:
 SELECT * FROM Customers;
 ```
 
+
+### SQL SELECT DISTINCT Statement
+The SELECT "DISTINCT" statement is used to return only distinct (different) values. In otherwords, the `"distinct"` stamenet ***`is used 
+to return unique values from a column that contains duplicates`***
+
+- Example: 
+
+Select all the different countries from the "Customers" table:
+
+```
+SELECT DISTINCT Country FROM Customers;
+```
+
+Inside a table, a column often contains many duplicate values ***(for example in a column named countries, you may have Nigeria apearing more than 5 times in a row; the distinct statement will filter duplicate countres and give u each individual countries without its duplicate)***; and sometimes you only want to list the different (distinct) values.
+
+### Count Distinct
+
+By using the `'DISTINCT'` keyword in a function called `'COUNT'`, we can return the number of different countries.
+
+- **Example**
+
+```
+SELECT COUNT (DISTINCT Country) FROM Customers;
+```
