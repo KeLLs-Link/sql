@@ -153,4 +153,25 @@ select * from customers where country='germany';
 ```
 ![image](./screenshot/wherestatement.jpg)
 
-`NOTE:` The **`WHERE`** clause is not only used in SELECT statements, it is also used in UPDATE, DELETE, etc.!
+```
+select * from customers where customerid = 1;
+```
+
+![image](./screenshot/customerid.jpg)
+
+`NOTE:` The **`WHERE`** clause is not only used in SELECT statements, it is also used in UPDATE, DELETE, etc.
+
+### Operators in The WHERE Clause
+
+You can use other operators than the = operator to filter the search.
+
+- Example:
+
+Select all customers with a CustomerID greater than 80:
+
+```
+SELECT * FROM Customers WHERE CustomerID > 80;
+```
+
+![image](./screenshot/greaterthan80.jpg)
+
