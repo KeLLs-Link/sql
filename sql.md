@@ -134,7 +134,7 @@ SELECT COUNT (DISTINCT Country) FROM Customers;
 ### SQL WHERE Clause
 The **`WHERE`** clause is used to filter records.
 
-It is used to extract only those records that fulfill a specified condition.
+It is used to extract only those records that fulfill a specified condition. Also, the where cluase is used to filter records that meet a specified condition
 
 - **Syntax**
 
@@ -163,7 +163,7 @@ select * from customers where customerid = 1;
 
 ### Operators in The WHERE Clause
 
-You can use other operators than the = operator to filter the search.
+You can use other operators than the = operator to filter the search. 
 
 - Example:
 
@@ -175,3 +175,8 @@ SELECT * FROM Customers WHERE CustomerID > 80;
 
 ![image](./screenshot/greaterthan80.jpg)
 
+```
+select * from customers where customerid between 80 and 82;
+```
+
+![image](./screenshot/between.jpg)
